@@ -35,7 +35,7 @@ const Links = [
 
 export default function App() {
   return (
-    <div className='relative min-h-screen text-slate-100 flex flex-col items-center px-6 py-20 overflow-hidden font-sans'>
+    <div className='relative min-h-screen text-slate-100 flex flex-col items-center px-6 py-13 overflow-hidden font-sans'>
       
       {/* Sphères de couleur animées en arrière-plan */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 bg-[#050505]">
@@ -56,7 +56,9 @@ export default function App() {
           <h1 className='text-2xl font-bold tracking-tight'>
               . Jonas Rose .
           </h1>
-          <p className='text-xl font-extralight tracking-tight'>Photography</p>
+          <h4 className='text-xl font-extralight tracking-tight'>Photography</h4>
+          <p>________________</p>
+          <p className='text-sm font-extralight tracking-widest pt-5'>... On Production, Coming Soon ...</p>
       </div>
 
       {/* Preview Galerie */}
@@ -85,7 +87,7 @@ export default function App() {
           ))}
         </div>
       {/* Footer */} 
-        <footer className="mt-auto pt-20 text-slate-600 text-[10px] tracking-tighter">
+        <footer className="mt-auto pt-15 text-slate-600 text-[10px] tracking-tighter">
           Developed By Yours Truly • {new Date().getFullYear()}
         </footer>
     </div>
