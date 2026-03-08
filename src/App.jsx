@@ -8,7 +8,7 @@ const PreviewImages = [
 
 const Links = [
   {
-    title: "Portfolio Lightroom",
+    title: "Portfolio",
     url: "https://jonasrose.co/",
     icon: <Image size={20}/>,
     color: "hover:bg-blue-500"
