@@ -57,8 +57,8 @@ export default function App() {
               . Jonas Rose .
           </h1>
           <h4 className='text-xl font-extralight tracking-tight'>Photography</h4>
-          <p>________________</p>
-          <p className='text-sm font-extralight tracking-widest pt-5'>... On Production, Coming Soon ...</p>
+          {/* <p>________________</p> */}
+          {/* <p className='text-sm font-extralight tracking-widest pt-5'>... On Production, Coming Soon ...</p> */}
       </div>
 
       {/* Preview Galerie */}
@@ -87,7 +87,7 @@ export default function App() {
           ))}
         </div>
       {/* Footer */} 
-        <footer className="mt-auto pt-15 text-slate-600 text-[10px] tracking-tighter">
+        <footer className="mt-auto pt-12 text-slate-600 text-[10px] tracking-tighter">
           Developed By Yours Truly • {new Date().getFullYear()}
         </footer>
     </div>
