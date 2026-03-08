@@ -1,4 +1,4 @@
-import { Instagram, Image, ExternalLink, Mail } from 'lucide-react';
+import { Instagram, Image, ExternalLink, Mail, AudioLines, GalleryHorizontalEnd } from 'lucide-react';
 
 const PreviewImages = [
   {
@@ -8,22 +8,22 @@ const PreviewImages = [
 
 const Links = [
   {
-    title: "Portfolio",
-    url: "https://jonasrose.co/",
-    icon: <Image size={20}/>,
-    color: "hover:bg-blue-500"
-  },
-  {
-    title: "Instagram Noir et Blanc",
+    title: "Instagram",
     url: "https://www.instagram.com/jo.rose__/",
     icon: <Instagram size={20}/>,
     color: "hover:bg-pink-500"
   },
   {
-    title: "Instagram Colour",
-    url: "https://",
-    icon: <Instagram size={20}/>,
+    title: "Jazz x Live",
+    url: "https://jonasrose.co/musiclive",
+    icon: <AudioLines size={20}/>,
     color: "hover:bg-purple-500"
+  },
+  {
+    title: "Portfolio",
+    url: "https://jonasrose.co/",
+    icon: <GalleryHorizontalEnd size={20}/>,
+    color: "hover:bg-blue-500"
   },
   {
     title: "Contact / Email",
